@@ -15,6 +15,6 @@ RUN useradd --create-home --shell /bin/bash spfx && \
 USER spfx
 
 #update the required gulp yo and spfx generator version in the below line
-RUN npm i --location=global gulp-cli@2 yo @microsoft/generator-sharepoint@1.18.2
+RUN npm i --location=global gulp-cli@2 yo @microsoft/generator-sharepoint@next
 
 CMD /bin/bash
